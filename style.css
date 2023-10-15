@@ -1,19 +1,95 @@
+:root{
+    --primary-color: #127D20;
+    --secondary-color: #DBFADF;
+    --hihlight-color: #ABC195;
+    --dark: #111111;
+    --secondary-dark: #5A595B;
+    --white: #fff;
+    --fonte: 'Aeonik', sans-serif;
+}
+
+@font-face {
+    font-family: 'Aeonik';
+    src: url(Fontes/aeoniktrial-regular-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aeonik';
+    src: url(Fontes/aeoniktrial-bold-webfont.woff) format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aeonik';
+    src: url(Fontes/aeoniktrial-light-webfont.woff) format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
 body{
-    background-color: #DBFADF;
+    background-color: var(--secondary-color);
+    font-family: var(--fonte);
 }
 
 .header-bg{
-    background: #127D20;
+    background: var(--primary-color);
+}
+
+.header_title{
+    color: var(--white);
+    font-size: 2em;
+}
+
+.navbar-brand:hover{
+    color: var(--white);
 }
 
 .navbar-toggler-icon{
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-.texto-bg{
-    background: #127D20;
+.texto{
+    background: var(--primary-color);
+    color: var(--white);
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
 }
 
-.bg-highlight{
-    background: #ABC195;
+.title{
+    font-size: 3em;
+    color: var(--dark);
+    line-height: normal;
+    text-align: center;
+}
+
+.subtitle{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+.highlight{
+    background: var(--hihlight-color);
+}
+
+.agendar_btn{
+    text-decoration: none;
+    text-align: center;
+    color: var(--white);
+    background: var(--primary-color);
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.call{
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.numero{
+    text-decoration: none;
 }
