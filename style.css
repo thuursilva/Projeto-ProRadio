@@ -94,12 +94,12 @@ body{
     text-decoration: none;
 }
 
-.card-title{
+.exame-title{
     font-size: 2em;
     color: var(--dark);
 }
 
-.card-text{
+.exame-text{
     font-size: 1.5em;
     font-weight: 300;
 }
@@ -111,4 +111,54 @@ body{
 .clients{
     font-size: 1.2em;
     font-weight: 300;
+}
+
+.client-title{
+    font-size: 1.7em;
+}
+
+.client-text{
+    font-size: 1em;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.card{
+    box-shadow: 0 1px 1px;
+}
+
+.message-profile{
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+.span-profile{
+    font-weight: bold;
+}
+
+.units-title{
+    font-size: 2em;
+}
+
+.units-address{
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+.units-neighborhood{
+    font-size: 1.3em;
+}
+
+.units-map{
+    width: 100%;
+    height: 100%;
+}
+
+.navbar-toggler:focus{
+  text-decoration: none;
+  box-shadow: none;
+}
+
+.navbar-toggler:focus-visible{
+    display: none;
 }
