@@ -93,3 +93,22 @@ body{
 .numero{
     text-decoration: none;
 }
+
+.card-title{
+    font-size: 2em;
+    color: var(--dark);
+}
+
+.card-text{
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+.clients_number{
+    font-size: 2em;
+}
+
+.clients{
+    font-size: 1.2em;
+    font-weight: 300;
+}
