@@ -1,0 +1,174 @@
+:root {
+  --primary-color: #127D20;
+  --secondary-color: #DBFADF;
+  --highlight-color: #ABC195;
+  --dark: #111111;
+  --secondary-dark: #5A595B;
+  --white: #fff;
+  --font: 'Aeonik', sans-serif;
+  /*--primary-color: rgb(171, 193, 149);*/
+  /*--secondary-color: rgb(239,239,239);*/
+}
+
+body {
+  background-color: var(--secondary-color);
+  font-family: var(--font);
+}
+
+.header-bg {
+  background: var(--primary-color);
+}
+
+.header_title {
+  color: var(--white);
+  font-size: 2em;
+}
+
+.navbar-brand:hover {
+  color: var(--white);
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.hero-sp {
+  background: var(--primary-color);
+  color: var(--white);
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold;
+  /*border: 1px solid;*/
+}
+
+.title {
+  font-size: 32px;
+  color: var(--dark);
+  line-height: normal;
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 19px;
+  font-weight: 300;
+}
+
+.underline {
+  text-decoration-color: var(--highlight-color) !important;
+  text-decoration-line: underline;
+  text-decoration-thickness: 0.5rem;
+}
+
+.agendar_btn {
+  text-decoration: none;
+  text-align: center;
+  color: var(--white);
+  background: var(--primary-color);
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.call {
+  font-size: 1em;
+  font-weight: 300;
+  text-align: center;
+}
+
+.call-number {
+  text-decoration: none;
+}
+
+.exam-title {
+  font-size: 24px;
+  color: var(--dark);
+}
+
+.exam-text {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.clients_number {
+  font-size: 2em;
+  background-color: var(--white);
+  padding: 0 3px;
+}
+
+.clients {
+  font-size: 1.2em;
+  font-weight: 300;
+  display: block;
+  background-color: var(--white);
+  margin-bottom: 0;
+  /*margin-top: -8px;*/
+}
+
+.client-title {
+  font-size: 1.7em;
+}
+
+.client-text {
+  font-size: 1em;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.message-profile {
+  font-size: 1.2em;
+  font-weight: 300;
+}
+
+.span-profile {
+  font-weight: bold;
+}
+
+.units-title {
+  font-size: 2em;
+}
+
+.units-address {
+  font-size: 1.2em;
+  font-weight: 300;
+}
+
+.units-neighborhood {
+  font-size: 1.3em;
+}
+
+.units-map {
+  width: 100%;
+  height: 100%;
+}
+
+.navbar-toggler:focus {
+  text-decoration: none;
+  box-shadow: none;
+}
+
+.navbar-toggler:focus-visible {
+  display: none;
+}
+
+.scrollable-row {
+  /*justify-content: start;*/
+  /*align-items: center;*/
+  overflow-x: scroll;
+  flex-wrap: nowrap;
+}
+
+.scrollable-row.row-cols-1 > * {
+  flex: 0 0 auto;
+  width: 90vw;
+}
+
+.card-float {
+  box-shadow: 0px 5px 13px 1px var(--bs-gray-500);
+  border: none;
+}
+
+.card-testimonials-float {
+  box-shadow: 0px 5px 13px 1px #c5e8c4;
+  border: none;
+}
+

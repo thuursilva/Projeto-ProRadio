@@ -1,212 +1,170 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html data-bs-theme="light" lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="style.css">
-  <title>ProRadio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>proradio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body>
-
-  <!--Header-->
-  <nav class="navbar navbar-expand-lg header-bg">
-    <div class="container-fluid">
-      <div class="d-flex">
-        <img src="assets/icone.png">
-        <a class="navbar-brand header_title" href="#">ProRadio</a>
-      </div>
-      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
-        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-        aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon fs-1"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-          </li>
-        </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      </div>
-    </div>
-  </nav>
-
-  <!--100+ pacientes satisfeitos-->
-  <div class="d-flex justify-content-center">
-    <p class="texto rounded-4 px-3 m-1">100+ pacientes satisfeitos</p>
-  </div>
-
-  <!--Imagem-->
-  <img class="rounded-4 px-2 img-fluid" src="assets/hero-img.png">
-
-  <!--Titulo 1-->
-  <section class="d-flex flex-column justify-content-center mx-4 mt-3">
-    <p class="title mb-0">Lorem ipsum dolor sit amet, consectetur.</p>
-    <span class="highlight rounded-4 p-1"></span>
-  </section>
-
-  <!--Subtitulo 1-->
-  <p class="subtitle mx-3 my-2">Nunc diam velit, luctus nec rutrum in, elementum at libero. Integer nec pellentesque
-    neque.</p>
-
-  <!--Agende sua consulta-->
-  <div class="d-flex justify-content-center">
-    <a class="rounded-5 py-3 px-4 m-1 d-inline-flex align-items-center gap-3 agendar_btn" href="https://wa.me/5511949941682">
-      <img src="assets/whatsapp-logo.png">Agendar minha consulta
-    </a>
-  </div>
-
-  <!--Ligue-->
-  <p class="call mx-4 my-2"><img class="me-1" src="assets/headphones.png">Ou ligue no <a class="numero"
-      href="tel:+55-11-94994-1682">(11) 94994-1682</a></p>
-
-  <!--titulo 2-->
-  <section class="d-flex flex-column justify-content-center mx-4 mt-3">
-    <p class="title mb-0">Lorem ipsum dolor sit amet.</p>
-    <span class="highlight rounded-4 p-1 mt-0"></span>
-  </section>
-
-  <!--Subtitulo 2-->
-  <p class="subtitle mx-3 my-2">Nunc diam velit, luctus nec rutrum in, elementum at libero. Integer nec pellentesque
-    neque.</p>
-
-  <!--card exame-->
-  <div class="card mx-1 p-2 rounded-4">
-    <img class="img-fluid" src="assets/card-img.png">
-    <div class="card-body">
-      <h5 class="card-title exame-title">Ultrassonografia da tireoide</h5>
-      <p class="card-text exame-text">Exame seguro e de alta precisão, capaz de identificar nódulos na tireoide e classificá-los
-        quanto ao risco de serem malignos ou benignos, permitindo que o tratamento seja iniciado o mais cedo possível.
-      </p>
-    </div>
-  </div>
-
-  <!--Titulo 3-->
-  <section class="d-flex flex-column justify-content-center mx-4 mt-3">
-    <p class="title mb-0">Lorem ipsum dolor sit amet.</p>
-    <span class="highlight rounded-4 p-1 mt-0"></span>
-  </section>
-
-  <!--Clientes satisfeitos container-->
-  <div class="container mt-4 mb-1">
-    <div class="row">
-      <div class="col-6">
-        <div class="d-flex flex-column text-center">
-          <span class="clients_number">100+</span>
-          <p class="clients">Clientes satisfeitos</p>
+    <nav class="navbar navbar-expand-lg header-bg py-1">
+        <div class="container-fluid">
+            <div class="d-flex"><img src="assets/img/icone.png"><a class="navbar-brand header_title" href="#">ProRadio</a></div><button data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" class="navbar-toggler border-0" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="fs-1 navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto my-2 mb-lg-0">
+                    <li class="nav-item dropdown"><a class="nav-link link-light" aria-expanded="false" href="#" role="button" data-bs-target="#exams">Exames</a></li>
+                    <li class="nav-item dropdown"><a class="nav-link link-light" aria-expanded="false" data-bs-toggle="dropdown" href="#" role="button" data-bs-target="#results">Resultados</a></li>
+                    <li class="nav-item dropdown"></li>
+                    <li class="nav-item dropdown"><a class="nav-link link-light" aria-expanded="false" data-bs-toggle="dropdown" href="#" role="button" data-bs-target="#contact">Contato</a></li>
+                </ul>
+            </div>
         </div>
-      </div>
-      <div class="col-6">
-        <div class="d-flex flex-column text-center">
-          <span class="clients_number">100+</span>
-          <p class="clients">Clientes satisfeitos</p>
+    </nav>
+    <section id="hero">
+        <div data-aos="fade-up" class="position-relative">
+            <div class="d-flex justify-content-center position-absolute" style="top: 5px;width: 100vw;">
+                <p class="hero-sp rounded-4 px-3 m-1 user-select-none float-effect" style="box-shadow: 0px 0px 20px var(--bs-gray-800);">100+ pacientes satisfeitos</p>
+            </div><img class="img-fluid w-100" src="assets/img/OIG.jpg">
         </div>
-      </div>
-      <div class="col-6">
-        <div class="d-flex flex-column text-center">
-          <span class="clients_number">100+</span>
-          <p class="clients">Clientes satisfeitos</p>
+        <div class="container py-2" data-aos="fade-up">
+            <h1 class="title mb-2" style="text-shadow: 0px 2px 6px var(--highlight-color);">Lorem ipsum <span class="underline rounded-4 p-1">dolor sit amet</span></h1>
+            <p class="subtitle mb-1">Nunc diam velit, luctus nec rutrum in, elementum at libero. Integer nec pellentesque neque.</p>
+            <div class="d-flex justify-content-center"><a class="d-inline-flex align-items-center rounded-5 p-3 m-1 gap-3 agendar_btn float-effect" href="https://wa.me/5511949941682" style="box-shadow: 0px 2px 10px var(--bs-gray-800);"><img src="assets/img/whatsapp-logo.png">Agendar minha consulta </a></div>
+            <p class="call mx-4 my-2"><img class="me-1" src="assets/img/headphones.png">Ou ligue no <a class="call-number">(11) 94994-1682</a></p>
         </div>
-      </div>
-      <div class="col-6">
-        <div class="d-flex flex-column text-center">
-          <span class="clients_number">100+</span>
-          <p class="clients">Clientes satisfeitos</p>
+    </section>
+    <section class="bg-light-subtle container py-4" id="exams">
+        <h2 class="title mb-2" style="text-shadow: 0px 2px 6px var(--bs-dark-bg-subtle);">Lorem ipsum dolor sit amet.</h2>
+        <p class="subtitle">Nunc diam velit, luctus nec rutrum in, elementum at libero. Integer nec pellentesque neque.</p>
+        <div class="row row-cols-1 scrollable-row">
+            <div class="col">
+                <div class="card rounded-4 card-float"><img class="img-fluid card-img-top w-100 d-block" src="assets/img/card-img.png">
+                    <div class="card-body">
+                        <h5 class="card-title exam-title">Ultrassonografia da tireoide</h5>
+                        <p class="card-text exam-text">Exame seguro e de alta precisão, capaz de identificar nódulos na tireoide e classificá-los quanto ao risco de serem malignos ou benignos. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card rounded-4 card-float"><img class="img-fluid card-img-top w-100 d-block" src="assets/img/card-img.png">
+                    <div class="card-body">
+                        <h5 class="card-title exam-title">Ultrassonografia da tireoide</h5>
+                        <p class="card-text exam-text">Exame seguro e de alta precisão, capaz de identificar nódulos na tireoide e classificá-los quanto ao risco de serem malignos ou benignos. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card rounded-4 card-float"><img class="img-fluid card-img-top w-100 d-block" src="assets/img/card-img.png">
+                    <div class="card-body">
+                        <h5 class="card-title exam-title">Ultrassonografia da tireoide</h5>
+                        <p class="card-text exam-text">Exame seguro e de alta precisão, capaz de identificar nódulos na tireoide e classificá-los quanto ao risco de serem malignos ou benignos.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card rounded-4 card-float"><img class="img-fluid card-img-top w-100 d-block" src="assets/img/card-img.png">
+                    <div class="card-body">
+                        <h5 class="card-title exam-title">Ultrassonografia da tireoide</h5>
+                        <p class="card-text exam-text">Exame seguro e de alta precisão, capaz de identificar nódulos na tireoide e classificá-los quanto ao risco de serem malignos ou benignos, permitindo que o tratamento seja iniciado o mais cedo possível. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card rounded-4 card-float"><img class="img-fluid card-img-top w-100 d-block" src="assets/img/card-img.png">
+                    <div class="card-body">
+                        <h5 class="card-title exam-title">Ultrassonografia da tireoide</h5>
+                        <p class="card-text exam-text">Exame seguro e de alta precisão, capaz de identificar nódulos na tireoide e classificá-los quanto ao risco de serem malignos ou benignos, permitindo que o tratamento seja iniciado o mais cedo possível. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card rounded-4 card-float"><img class="img-fluid card-img-top w-100 d-block" src="assets/img/card-img.png">
+                    <div class="card-body">
+                        <h5 class="card-title exam-title">Ultrassonografia da tireoide</h5>
+                        <p class="card-text exam-text">Exame seguro e de alta precisão, capaz de identificar nódulos na tireoide e classificá-los quanto ao risco de serem malignos ou benignos, permitindo que o tratamento seja iniciado o mais cedo possível. </p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
-
-  <!--container cards-->
-  <div class="d-flex flex-column gap-2 mx-1">
-    <div class="card mx-1 p-1 rounded-4">
-      <div class="card-body"> 
-        <h5 class="card-title client-title d-inline-flex gap-1 align-items-center"><img class="img-fluid" src="assets/Ellipse 1.png"> John Doe</h5>
-        <p class="card-text client-text">Exame seguro e de alta precisão, capaz de identificar nódulos na tireoide e classificá-los
-          quanto ao risco de serem malignos ou benignos, permitindo que o tratamento seja iniciado o mais cedo possível.</p>
-      </div>
-    </div>
-
-    <div class="card mx-1 p-1 rounded-4">
-      <div class="card-body"> 
-        <h5 class="card-title client-title d-inline-flex gap-1 align-items-center"><img class="img-fluid" src="assets/Ellipse 1.png"> John Doe</h5>
-        <p class="card-text client-text">Exame seguro e de alta precisão, capaz de identificar nódulos na tireoide e classificá-los
-          quanto ao risco de serem malignos ou benignos, permitindo que o tratamento seja iniciado o mais cedo possível.</p>
-      </div>
-    </div>
-
-    <div class="card mx-1 p-1 rounded-4">
-      <div class="card-body"> 
-        <h5 class="card-title client-title d-inline-flex gap-1 align-items-center"><img class="img-fluid" src="assets/Ellipse 1.png"> John Doe</h5>
-        <p class="card-text client-text">Exame seguro e de alta precisão, capaz de identificar nódulos na tireoide e classificá-los
-          quanto ao risco de serem malignos ou benignos, permitindo que o tratamento seja iniciado o mais cedo possível.</p>
-      </div>
-    </div>
-  </div>
-
-  <!--Titulo 4-->
-  <section class="d-flex flex-column justify-content-center mx-4 mt-3">
-    <p class="title mb-0">Lorem ipsum dolor sit amet.</p>
-    <span class="highlight rounded-4 p-1 mt-0"></span>
-  </section>
-
-  <!--Perfil-->
-  <div class="text-center">
-    <img class="px-2 img-fluid my-3" src="assets/Ellipse 2.png">
-  </div>
-
-  <!--Perfil mensagem-->
-  <p class="message-profile mx-1">“Nunc diam velit, luctus nec rutrum in, elementum at libero. Integer nec pellentesque neque.” - <span class="span-profile">Renan, médico</span></p>
-
-  <!--Agende sua consulta 2-->
-  <div class="d-flex justify-content-center">
-    <a class="rounded-5 py-3 px-4 m-1 d-inline-flex align-items-center gap-3 agendar_btn" href="https://wa.me/5511949941682">
-      <img src="assets/whatsapp-logo.png">Agendar minha consulta
-    </a>
-  </div>
-
-  <!--Ligue 2-->
-  <p class="call mx-4 my-2"><img class="me-1" src="assets/headphones.png">Ou ligue no <a class="numero" href="tel:+55-11-94994-1682">(11) 94994-1682</a></p>
-
-  <!--unidades-->
-  <div class="mx-1 my-3">
-  <h2 class="units-title">Unidades (SP)</h2>
-  <div>
-    <h3 class="units-neighborhood">Higienópolis</h3>
-    <p class="units-address">Avenida Angélica, n.2491 - Higienópolis</p>
-    <iframe class="units-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.3817700566105!2d-46.66466442375321!3d-23.55472836135032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce582dbd51bedb%3A0x4540ed2fd754c3e4!2zQXYuIEFuZ8OpbGljYSwgMjQ5MSAtIENvbnNvbGHDp8OjbywgU8OjbyBQYXVsbyAtIFNQLCAwMTIyNy0yMDA!5e0!3m2!1spt-BR!2sbr!4v1697421518986!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-  </div>
-  <div class="mt-2">
-    <h3 class="units-neighborhood">Paulista</h3>
-    <p class="units-address">Avenida Paulista, n.2064 - Bela Vista</p>
-    <iframe class="units-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.29673620635!2d-46.66156722375315!3d-23.55778386146243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59cd16e6df0d%3A0x3a3aa3d86e06cd85!2sAv.%20Paulista%2C%202064%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001310-200!5e0!3m2!1spt-BR!2sbr!4v1697421789415!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-  </div>
-  </div>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
+    </section>
+    <section class="d-flex flex-column justify-content-center container py-4" id="results" style="/*background: var(--primary-color);*/">
+        <p class="title mb-2" style="text-shadow: 0px 2px 6px var(--highlight-color);">Lorem ipsum dolor sit amet.</p>
+        <div class="mb-2">
+            <div class="row row-cols-2 mb-2">
+                <div class="col">
+                    <div class="text-center"><span class="clients_number">100+</span>
+                        <p class="clients">Clientes satisfeitos</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="text-center" style="box-shadow: 0px 0px var(--dark);"><span class="clients_number">100+</span>
+                        <p class="clients">Clientes satisfeitos</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="text-center"><span class="clients_number">100+</span>
+                        <p class="clients">Clientes satisfeitos</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="text-center"><span class="clients_number">100+</span>
+                        <p class="clients">Clientes satisfeitos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-cols-1 scrollable-row py-3">
+            <div class="col">
+                <div class="card mx-1 p-1 rounded-4 card-testimonials-float">
+                    <div class="card-body">
+                        <h5 class="d-inline-flex align-items-center card-title client-title gap-1"><img class="img-fluid" src="assets/img/Ellipse%201.png"> John Doe</h5>
+                        <p class="card-text client-text">Exame seguro e de alta precisão, capaz de identificar nódulos na tireoide e classificá-los quanto ao risco de serem malignos ou benignos, permitindo que o tratamento seja iniciado o mais cedo possível.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card rounded-4 card-testimonials-float">
+                    <div class="card-body">
+                        <h5 class="d-inline-flex align-items-center card-title client-title gap-1"><img class="img-fluid" src="assets/img/Ellipse%201.png"> John Doe</h5>
+                        <p class="card-text client-text">Exame seguro e de alta precisão, capaz de identificar nódulos na tireoide e classificá-los quanto ao risco de serem malignos ou benignos, permitindo que o tratamento seja iniciado o mais cedo possível.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card rounded-4 card-testimonials-float">
+                    <div class="card-body">
+                        <h5 class="d-inline-flex align-items-center card-title client-title gap-1"><img class="img-fluid" src="assets/img/Ellipse%201.png"> John Doe</h5>
+                        <p class="card-text client-text">Exame seguro e de alta precisão, capaz de identificar nódulos na tireoide e classificá-los quanto ao risco de serem malignos ou benignos, permitindo que o tratamento seja iniciado o mais cedo possível.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-light-subtle d-flex flex-column justify-content-center container py-4" id="about">
+        <p class="title mb-0" style="text-shadow: 0px 2px 6px var(--bs-gray-400);">Lorem ipsum dolor sit amet.</p><span class="highlight rounded-4 p-1 mt-0"></span>
+        <div class="text-center"><img class="rounded-circle img-fluid px-2 my-3 float-effect" src="assets/img/Ellipse%202.png"></div>
+        <p class="message-profile">“Nunc diam velit, luctus nec rutrum in, elementum at libero. Integer nec pellentesque neque.” - <span class="span-profile">Renan, médico</span></p>
+        <div class="d-flex justify-content-center"><a class="d-inline-flex align-items-center rounded-5 p-3 m-1 gap-3 agendar_btn float-effect" href="https://wa.me/5511949941682" style="box-shadow: 0px 2px 10px var(--bs-gray-800);"><img src="assets/img/whatsapp-logo.png">Agendar minha consulta </a></div>
+        <p class="call mx-4 my-2"><img class="me-1" src="assets/img/headphones.png">Ou ligue no <a class="numero">(11) 94994-1682</a></p>
+    </section>
+    <section id="contact" class="container py-4">
+        <h2 class="units-title">Unidades</h2>
+        <div>
+            <h3 class="units-neighborhood mb-0">Higienópolis</h3>
+            <p class="text-muted units-address">Avenida Angélica, n.2491 - Higienópolis</p><iframe class="units-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.3817700566105!2d-46.66466442375321!3d-23.55472836135032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce582dbd51bedb%3A0x4540ed2fd754c3e4!2zQXYuIEFuZ8OpbGljYSwgMjQ5MSAtIENvbnNvbGHDp8OjbywgU8OjbyBQYXVsbyAtIFNQLCAwMTIyNy0yMDA!5e0!3m2!1spt-BR!2sbr!4v1697421518986!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+        <div class="mt-2">
+            <h3 class="units-neighborhood mb-0">Paulista</h3>
+            <p class="text-muted units-address">Avenida Paulista, n.2064 - Bela Vista</p><iframe class="units-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.29673620635!2d-46.66156722375315!3d-23.55778386146243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59cd16e6df0d%3A0x3a3aa3d86e06cd85!2sAv.%20Paulista%2C%202064%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001310-200!5e0!3m2!1spt-BR!2sbr!4v1697421789415!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="assets/js/bs-init.js"></script>
 </body>
 
 </html>
