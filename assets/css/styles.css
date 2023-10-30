@@ -6,30 +6,36 @@
   --secondary-dark: #5A595B;
   --white: #fff;
   --font: 'Aeonik', sans-serif;
+  --dark-text: #2B2B2B;
   /*--primary-color: rgb(171, 193, 149);*/
   /*--secondary-color: rgb(239,239,239);*/
 }
 
 body {
-  background-color: var(--secondary-color);
+  background-color: var(--white);
   font-family: var(--font);
 }
 
 .header-bg {
-  background: var(--primary-color);
+  background: var(--secondary-color);
 }
 
 .header_title {
-  color: var(--white);
+  color: var(--dark-text);
   font-size: 2em;
 }
 
 .navbar-brand:hover {
-  color: var(--white);
+  display: none;
+}
+
+.text-link{
+  color:  var(--dark-text);
+  font-size: 1.3em;
 }
 
 .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 .hero-sp {
@@ -168,7 +174,43 @@ body {
 }
 
 .card-testimonials-float {
-  box-shadow: 0px 5px 13px 1px #c5e8c4;
+  box-shadow: 0px 5px 13px 1px var(--bs-gray-500);
   border: none;
+}
+
+@media (min-width:992px) {
+  .header-brand{
+    width: 75%;
+  }
+  .title{
+    font-size: 4.6em;
+    text-align: start;
+  }
+
+  .subtitle{
+    font-size: 2em;
+    text-align: start;
+  }
+
+  .agendar_btn{
+    font-size: 2em;
+  }
+
+  .hero-sp{
+    font-size: 1.5em;
+    width: 35%;
+  }
+
+  .call{
+    font-size: 1.3em;
+  }
+
+  .hero-description{
+    width: 60%;
+  }
+
+  .agendar_btn{
+    width: 75%;
+  }
 }
 

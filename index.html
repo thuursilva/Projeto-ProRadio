@@ -11,31 +11,44 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg header-bg py-1">
+    <nav class="navbar navbar-expand-lg header-bg py-1 px-lg-5">
         <div class="container-fluid">
-            <div class="d-flex"><img src="assets/img/icone.png"><a class="navbar-brand header_title" href="#">ProRadio</a></div><button data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" class="navbar-toggler border-0" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="fs-1 navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto my-2 mb-lg-0">
-                    <li class="nav-item dropdown"><a class="nav-link link-light" aria-expanded="false" href="#" role="button" data-bs-target="#exams">Exames</a></li>
-                    <li class="nav-item dropdown"><a class="nav-link link-light" aria-expanded="false" data-bs-toggle="dropdown" href="#" role="button" data-bs-target="#results">Resultados</a></li>
+            <div class="d-flex align-items-center header-brand"><img src="assets/img/icone.png"><a class="navbar-brand header_title" href="#">ProRadio</a></div>
+            <button data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" class="navbar-toggler border-0" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="fs-1 navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse px-5" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown"><a class="nav-link text-link" aria-expanded="false" href="#" role="button" data-bs-target="#exams">Exames</a></li>
+                    <li class="nav-item dropdown"><a class="nav-link text-link" aria-expanded="false" data-bs-toggle="dropdown" href="#" role="button" data-bs-target="#results">Resultados</a></li>
                     <li class="nav-item dropdown"></li>
-                    <li class="nav-item dropdown"><a class="nav-link link-light" aria-expanded="false" data-bs-toggle="dropdown" href="#" role="button" data-bs-target="#contact">Contato</a></li>
+                    <li class="nav-item dropdown"><a class="nav-link text-link" aria-expanded="false" data-bs-toggle="dropdown" href="#" role="button" data-bs-target="#contact">Contato</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <section id="hero">
-        <div data-aos="fade-up" class="position-relative">
+    <section id="hero" class="d-lg-flex align-items-center justify-content-center px-lg-5">
+        <div data-aos="fade-up" class="position-relative d-lg-none">
             <div class="d-flex justify-content-center position-absolute" style="top: 5px;width: 100vw;">
                 <p class="hero-sp rounded-4 px-3 m-1 user-select-none float-effect" style="box-shadow: 0px 0px 20px var(--bs-gray-800);">100+ pacientes satisfeitos</p>
-            </div><img class="img-fluid w-100" src="assets/img/OIG.jpg">
+            </div>
+            <img class="img-fluid w-100" src="assets/img/OIG.jpg">
         </div>
-        <div class="container py-2" data-aos="fade-up">
-            <h1 class="title mb-2" style="text-shadow: 0px 2px 6px var(--highlight-color);">Lorem ipsum <span class="underline rounded-4 p-1">dolor sit amet</span></h1>
-            <p class="subtitle mb-1">Nunc diam velit, luctus nec rutrum in, elementum at libero. Integer nec pellentesque neque.</p>
-            <div class="d-flex justify-content-center"><a class="d-inline-flex align-items-center rounded-5 p-3 m-1 gap-3 agendar_btn float-effect" href="https://wa.me/5511949941682" style="box-shadow: 0px 2px 10px var(--bs-gray-800);"><img src="assets/img/whatsapp-logo.png">Agendar minha consulta </a></div>
-            <p class="call mx-4 my-2"><img class="me-1" src="assets/img/headphones.png">Ou ligue no <a class="call-number">(11) 94994-1682</a></p>
+        <div class="container py-2 d-lg-flex flex-lg-column gap-lg-4 hero-description" data-aos="fade-up">
+            <p class="hero-sp rounded-4 px-3 m-1 user-select-none float-effect d-none d-lg-block">100+ pacientes satisfeitos</p>
+            <h1 class="title mb-2 d-lg-none" style="text-shadow: 0px 2px 6px var(--highlight-color);">Lorem ipsum <span class="underline rounded-4 p-1">dolor sit amet</span></h1>
+            <h1 class="title mb-2 d-none d-lg-block" style="text-shadow: 0px 2px 6px var(--highlight-color);">Lorem ipsum dolor sit amet, <span>consectetur</span></h1>
+            <p class="subtitle mb-1 d-lg-none">Nunc diam velit, luctus nec rutrum in, elementum at libero. Integer nec pellentesque neque.</p>
+            <p class="subtitle mb-1 d-none d-lg-block">Nunc tristique urna id tortorfsdfds pellentesque, non blandit exdsf aliquet. Donec eget felis ex. Donec volutpat, metus et molestie.</p>
+            <div class="d-flex justify-content-center">
+                <a class="d-inline-flex align-items-center rounded-5 p-3 gap-3 agendar_btn float-effect" href="https://wa.me/5511949941682" style="box-shadow: 0px 2px 10px var(--bs-gray-800);">
+                <img class="d-lg-none" src="assets/img/whatsapp-logo.png">
+                <img class="d-none d-lg-block" src="assets/img/whatsapp-logo-large.png">
+                Agendar minha consulta</a>
+            </div>
+            <p class="call mx-4 my-2"><img class="me-1" src="assets/img/headphones.png">Ou ligue no <a class="call-number" href="tel:+55-11-94994-1682">(11) 94994-1682</a></p>
         </div>
+
+        <img class="img-fluid d-none d-lg-block" src="assets/img/image 1.png">
+
     </section>
     <section class="bg-light-subtle container py-4" id="exams">
         <h2 class="title mb-2" style="text-shadow: 0px 2px 6px var(--bs-dark-bg-subtle);">Lorem ipsum dolor sit amet.</h2>
@@ -149,7 +162,7 @@
         <div class="text-center"><img class="rounded-circle img-fluid px-2 my-3 float-effect" src="assets/img/Ellipse%202.png"></div>
         <p class="message-profile">“Nunc diam velit, luctus nec rutrum in, elementum at libero. Integer nec pellentesque neque.” - <span class="span-profile">Renan, médico</span></p>
         <div class="d-flex justify-content-center"><a class="d-inline-flex align-items-center rounded-5 p-3 m-1 gap-3 agendar_btn float-effect" href="https://wa.me/5511949941682" style="box-shadow: 0px 2px 10px var(--bs-gray-800);"><img src="assets/img/whatsapp-logo.png">Agendar minha consulta </a></div>
-        <p class="call mx-4 my-2"><img class="me-1" src="assets/img/headphones.png">Ou ligue no <a class="numero">(11) 94994-1682</a></p>
+        <p class="call mx-4 my-2"><img class="me-1" src="assets/img/headphones.png">Ou ligue no <a class="call-number" href="tel:+55-11-94994-1682">(11) 94994-1682</a></p>
     </section>
     <section id="contact" class="container py-4">
         <h2 class="units-title">Unidades</h2>
