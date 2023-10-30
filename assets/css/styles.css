@@ -92,11 +92,19 @@ body {
   text-align: center;
 }
 
+.results-title{
+  font-size: 32px;
+  color: var(--dark);
+  line-height: normal;
+  text-align: center;
+}
+
 .exams-subtitle{
   text-align: center;
   font-size: 19px;
   font-weight: 300;
 }
+
 
 .exam-title {
   font-size: 24px;
@@ -224,6 +232,16 @@ body {
 
   .exams-subtitle{
     font-size: 2em;
+  }
+
+  .results-title{
+    font-size: 4.6em;
+  }
+
+  .results-subtitle{
+    font-size: 2em;
+    text-align: center;
+    font-weight: 300;
   }
 }
 
