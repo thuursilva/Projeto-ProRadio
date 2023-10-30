@@ -26,7 +26,7 @@ body {
 }
 
 .navbar-brand:hover {
-  display: none;
+  display: var(--dark-text);
 }
 
 .text-link{
@@ -47,14 +47,14 @@ body {
   /*border: 1px solid;*/
 }
 
-.title {
+.hero-title {
   font-size: 32px;
   color: var(--dark);
   line-height: normal;
   text-align: center;
 }
 
-.subtitle {
+.hero-subtitle{
   text-align: center;
   font-size: 19px;
   font-weight: 300;
@@ -83,6 +83,19 @@ body {
 
 .call-number {
   text-decoration: none;
+}
+
+.exams-title{
+  font-size: 32px;
+  color: var(--dark);
+  line-height: normal;
+  text-align: center;
+}
+
+.exams-subtitle{
+  text-align: center;
+  font-size: 19px;
+  font-weight: 300;
 }
 
 .exam-title {
@@ -182,12 +195,13 @@ body {
   .header-brand{
     width: 75%;
   }
-  .title{
+
+  .hero-title{
     font-size: 4.6em;
     text-align: start;
   }
 
-  .subtitle{
+  .hero-subtitle{
     font-size: 2em;
     text-align: start;
   }
@@ -198,19 +212,18 @@ body {
 
   .hero-sp{
     font-size: 1.5em;
-    width: 35%;
   }
 
   .call{
     font-size: 1.3em;
   }
 
-  .hero-description{
-    width: 60%;
+  .exams-title{
+    font-size: 4.6em;
   }
 
-  .agendar_btn{
-    width: 75%;
+  .exams-subtitle{
+    font-size: 2em;
   }
 }
 
