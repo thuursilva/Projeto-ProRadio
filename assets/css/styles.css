@@ -106,6 +106,13 @@ body {
   text-align: center;
 }
 
+.about-title{
+  font-size: 32px;
+  color: var(--dark);
+  line-height: normal;
+  text-align: center;
+}
+
 .exams-subtitle{
   text-align: center;
   font-size: 19px;
@@ -125,7 +132,6 @@ body {
 
 .clients_number {
   font-size: 2em;
-  background-color: var(--white);
   padding: 0 3px;
 }
 
@@ -133,7 +139,6 @@ body {
   font-size: 1.2em;
   font-weight: 300;
   display: block;
-  background-color: var(--white);
   margin-bottom: 0;
   /*margin-top: -8px;*/
 }
@@ -237,6 +242,8 @@ body {
 
   .hero-sp{
     font-size: 1.5em;
+    text-align: start;
+    width: 60%;
   }
 
   .call{
@@ -259,6 +266,24 @@ body {
     font-size: 2em;
     text-align: center;
     font-weight: 300;
+  }
+
+  .clients_number{
+    font-size: 3.6em;
+    color: var(--white);
+  }
+
+  .clients{
+    font-size: 1.8em;
+    color: var(--white);
+  }
+
+  .clients-satisfaction{
+    background-color: var(--primary-color);
+  }
+
+  .about-title{
+    font-size: 4.6em;
   }
 }
 
