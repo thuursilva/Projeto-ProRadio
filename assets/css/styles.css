@@ -73,6 +73,10 @@ body {
   text-decoration-thickness: 0.5rem;
 }
 
+.underlined{
+  background: var(--highlight-color);
+}
+
 .agendar_btn {
   text-decoration: none;
   text-align: center;
@@ -284,6 +288,18 @@ body {
 
   .about-title{
     font-size: 4.6em;
+  }
+
+  .message-profile{
+    font-size: 1.7em;
+  }
+
+  .span-profile{
+    font-size: 1.7em;
+  }
+
+  .about-hero{
+    width: 45%;
   }
 }
 
